@@ -52,3 +52,18 @@ my_joke = Joke('"Atch", "Sounds like you've got a cold!")
 my_joke.tell()
 ```
 If we were to run this out of box as is, we would get a NameError telling us that 'Joke' is not defined. We haven't created a "blueprint" or a class for Jokes yet to tell Python how to handle this.
+
+# Compound your understanding
+
+Objects have attributes (data) stored inside of them as well as methods we can call on to give them instructions. Classes are like blueprints for making objects, like a cookie cutter for example
+- You can make as many instances of cookie objects as you want, and they will all start off from the same template.
+
+Lets pretend we were making cookies using code it might look like:
+```
+from baking import Cookie
+
+sprinkled = Cookie(["sprinkles"])
+iced_chocolate = Cookie(["icing", "chocolate chips"])
+```
+
+Here we have created two instances of cookies with different attributes
